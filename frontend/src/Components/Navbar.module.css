@@ -40,3 +40,14 @@
   border: 0;
   border-radius: 10px;
 }
+.card {
+  width: 30%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 300px;
+  margin: 80px;
+}
+.cardCont {
+  display: flex;
+  flex-wrap: wrap;
+}
