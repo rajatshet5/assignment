@@ -19,8 +19,8 @@ export function Home() {
         <div>
             <SearchBar setJobs={setJobs}/>
             <div className={styles.cardCont}>
-            {jobs.map((item) => 
-            <JobCard job={item} />
+            {jobs.map((item, e) => 
+            <JobCard key={e} job={item} />
             )}
         </div>
         </div>

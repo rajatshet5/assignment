@@ -6,6 +6,7 @@ select {
   height: 50px;
   font-size: 17px;
   margin: 19px 0px;
+  border-radius: 7px;
 }
 button {
   width: 150px;
