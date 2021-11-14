@@ -8,12 +8,7 @@ app.use("/jobs", jobController);
 
 
 
-
-
-
-
-
-app.listen(2576, async function () {
+app.listen(2570, async function () {
     await connect();
-    console.log("Listening to port 2576");
+    console.log("Listening to port 2570");
 })
