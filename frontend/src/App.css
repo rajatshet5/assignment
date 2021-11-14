@@ -1,3 +1,21 @@
 a {
   text-decoration: none;
 }
+select {
+  width: 600px;
+  height: 50px;
+  font-size: 17px;
+  margin: 19px 0px;
+}
+button {
+  width: 150px;
+  border-radius: 5px;
+  background-color: cyan;
+  cursor: pointer;
+  border: 0px;
+  margin: 19px;
+  height: 38px;
+}
+button:hover {
+  background-color: rgb(32, 173, 173);
+}
